@@ -11,7 +11,7 @@ async function Navbar() {
   const session = await auth();
 
   return (
-    <div className="flex justify-between py-4 mb-10  border-b border-pink-800 items-center">
+    <div className="flex justify-between py-4 mb-10  border-b border-green-800 items-center">
       <div className="flex gap-4 items-center">
         <Link
           href={"/"}
@@ -21,11 +21,11 @@ async function Navbar() {
             width={60}
             height={60}
             src={
-              "https://utfs.io/f/e8f8eeb2-1278-4fa1-ad49-a6ccd8b35a33-164wir.png"
+              "https://utfs.io/f/V7kCML5PZ5mcU2dAsPAYf6QSOxPzstWrbh9FadMwj8eNmkK1"
             }
             alt="App Logo"
           />
-          <div className="text-pink-900 underline decoration-wavy  text-4xl font-bold">
+          <div className="text-green-900 underline decoration-wavy  text-4xl font-bold">
             StoryDev
           </div>
         </Link>
@@ -39,7 +39,7 @@ async function Navbar() {
             >
               <Button
                 variant={"outline"}
-                className="hover:bg-pink-300 bg-pink-200 border-primary/30  duration-100"
+                className="hover:bg-green-300 bg-green-200 border-primary/30  duration-100"
               >
                 {" "}
                 Your Stories
@@ -49,7 +49,7 @@ async function Navbar() {
               href={"/createStory"}
               className="hover:underline font-semibold text-lg"
             >
-              <Button className="bg-pink-800 hover:bg-pink-900">
+              <Button className="bg-green-800 hover:bg-green-900">
                 create story
               </Button>
             </Link>

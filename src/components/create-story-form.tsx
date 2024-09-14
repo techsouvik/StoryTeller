@@ -118,7 +118,7 @@ export function CreateStoryForm() {
             <span>This story is about:</span>
             <span
               onClick={randomStoriesTitle}
-              className="cursor-pointer p-1.5 bg-pink-900 text-pink-100 rounded-full text-primary-foreground"
+              className="cursor-pointer p-1.5 bg-green-900 text-green-100 rounded-full text-primary-foreground"
             >
               <WandSparkles size={16} />
             </span>
@@ -216,7 +216,7 @@ export function CreateStoryForm() {
           </RadioGroup>
         </div>
         <Button
-          className="w-full bg-pink-900 text-pink-100 hover:bg-pink-950  flex items-center"
+          className="w-full bg-green-900 text-green-100 hover:bg-green-950  flex items-center"
           type="submit"
           disabled={loading}
         >

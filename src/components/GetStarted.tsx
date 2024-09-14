@@ -12,7 +12,7 @@ const GetStarted = () => {
       }}
     >
       <Button
-        className="bg-pink-800 hover:bg-pink-900 mt-10 rounded-full"
+        className="bg-green-800 hover:bg-green-900 mt-10 rounded-full"
         type="submit"
       >
         Create a story <ArrowRight size={16} className="ml-1" />

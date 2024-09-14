@@ -35,24 +35,24 @@ const DeleteStory = ({ id }: { id: string }) => {
     <div>
       <AlertDialog>
         <AlertDialogTrigger asChild>
-          <Button size={"sm"} className="bg-pink-800 hover:bg-pink-900 w-fit">
+          <Button size={"sm"} className="bg-green-800 hover:bg-green-900 w-fit">
             Delete Story
           </Button>
         </AlertDialogTrigger>
         <AlertDialogContent>
           <AlertDialogHeader>
             <AlertDialogTitle>Are you absolutely sure?</AlertDialogTitle>
-            <AlertDialogDescription className="text-pink-900">
+            <AlertDialogDescription className="text-green-900">
               This action cannot be undone. This will permanently delete your
               story and remove your story data from our servers.
             </AlertDialogDescription>
           </AlertDialogHeader>
           <AlertDialogFooter className="w-full flex items-center">
-            <AlertDialogCancel className="bg-pink-800 mb-2  hover:bg-pink-800 text-pink-100 hover:text-pink-100">
+            <AlertDialogCancel className="bg-green-800 mb-2  hover:bg-green-800 text-green-100 hover:text-green-100">
               Cancel
             </AlertDialogCancel>
             <AlertDialogAction
-              className="bg-pink-800 hover:bg-pink-800 text-pink-100 hover:text-pink-100"
+              className="bg-green-800 hover:bg-green-800 text-green-100 hover:text-green-100"
               onClick={DelStory}
             >
               Continue

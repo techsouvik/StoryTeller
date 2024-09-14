@@ -38,7 +38,7 @@ const app = async () => {
             return (
               <div
                 key={e.id}
-                className="relative flex flex-col mt-6 text-gray-700 border border-pink-700  bg-white shadow-md bg-clip-border rounded-xl w-96"
+                className="relative flex flex-col mt-6 text-gray-700 border border-green-700  bg-white shadow-md bg-clip-border rounded-xl w-96"
               >
                 <div className="p-6">
                   <h5 className="block mb-2 font-sans text-sm antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
@@ -50,7 +50,7 @@ const app = async () => {
                 </div>
                 <div className="flex p-6 pt-0 gap-3 items-center">
                   <Link href={`/story/${e.id}`}>
-                    <Button size={"sm"} className="bg-pink-800 hover:bg-pink-900">
+                    <Button size={"sm"} className="bg-green-800 hover:bg-green-900">
                       View Story
                     </Button>
                   </Link>

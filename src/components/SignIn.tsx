@@ -12,7 +12,7 @@ export function SignIn() {
           await signIn("github");
         }}
       >
-        <Button asChild className="bg-pink-800 hover:bg-pink-900 mr-4">
+        <Button asChild className="bg-green-800 hover:bg-green-900 mr-4">
           <Link
             href={"https://github.com/techsouvik/Storyteller"}
             target="_blank"
@@ -22,7 +22,7 @@ export function SignIn() {
             </div>
           </Link>
         </Button>
-        <Button className="bg-pink-800 hover:bg-pink-900" type="submit">
+        <Button className="bg-green-800 hover:bg-green-900" type="submit">
           SignIn With Github <Github size={16} className="ml-2" />
         </Button>
       </form>
@@ -32,7 +32,7 @@ export function SignIn() {
           await signIn("google");
         }}
       >
-        <Button className="bg-pink-800 hover:bg-pink-900" type="submit">
+        <Button className="bg-green-800 hover:bg-green-900" type="submit">
           SignIn With Google
         </Button>
       </form> */}

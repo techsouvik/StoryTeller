@@ -14,7 +14,7 @@ export default async function Home() {
 
   return (
     <main className="flex flex-col justify-center items-center mt-20">
-      <div className="bg-gradient-to-br from-pink-800 to-pink-950 text-transparent text-center  bg-clip-text">
+      <div className="bg-gradient-to-br from-green-800 to-green-950 text-transparent text-center  bg-clip-text">
         <div className="text-7xl font-light">Spark the love of </div>
         <div className="font-semibold text-7xl mt-2">
           bed time stories with AI
@@ -30,8 +30,7 @@ export default async function Home() {
         height={800}
         className=" rounded-2xl shadow-lg  mt-10"
         src={
-          // "https://utfs.io/f/3b634229-4b1b-4c96-aec7-78d391cd23ef-h78716.png"
-          "https://utfs.io/f/652dac77-0778-4a00-9849-cdf085f95858-9mldjq.jpeg"
+          "https://utfs.io/f/V7kCML5PZ5mcqM9hO5xTG6Nv7mYHjeBfpOxrt4hPMkgZUX5S"
         }
         alt="Hero Image"
       />

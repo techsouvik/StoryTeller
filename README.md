@@ -8,6 +8,8 @@ Add a .env file in the root directory of the project with the following contents
 AUTH_GITHUB_ID =
 AUTH_GITHUB_SECRET = 
 NEXT_PUBLIC_GEMINI_API_KEY = 
+REPLICATE_API_TOKEN =
+LICA_API = 
 
 ```
 

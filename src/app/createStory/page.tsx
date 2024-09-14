@@ -29,7 +29,7 @@ async function page() {
       <div className="text-center font-semibold text-5xl mb-10">
         Create your story!
       </div>
-      <hr className="my-10 text-pink-700" />
+      <hr className="my-10 text-green-700" />
       <CreateStoryForm />
     </div>
   );

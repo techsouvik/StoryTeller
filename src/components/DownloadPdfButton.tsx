@@ -46,7 +46,7 @@ const DownloadPdfButton = () => {
 
   return (
     <Button
-      className="bg-pink-800 hover:bg-pink-900"
+      className="bg-green-800 hover:bg-green-900"
       onClick={handleDownloadPdf}
     >
       Download as PDF

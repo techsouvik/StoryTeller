@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg-gradient-to-br min-h-screen  from-white to-pink-200  text-pink-800`}
+        className={`${inter.className} bg-gradient-to-br min-h-screen  from-white to-green-200  text-green-800`}
       >
         <div className="max-w-[80vw] mx-auto">
           <Navbar />
